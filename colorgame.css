@@ -1,0 +1,94 @@
+body{
+	background: rgb(0, 0, 50);
+	margin-top: 0px;
+}
+h1 {
+	text-align: center;
+	background: dodgerblue;
+	text-transform: uppercase;
+	color: white;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+a:hover {
+	cursor: pointer;
+}
+
+#currentRGB {
+	font-size: 2em;
+}
+
+/*.col {
+  padding-right:7px;
+  padding-left:7px;
+}*/
+
+.wrapper {
+	padding: 10px;
+}
+
+.container {
+	max-width: 700px;
+}
+
+.currentColor {
+	height: 125px;
+	border-radius: 25px;
+	transition: background 0.6s;
+}
+
+
+
+.notSelected {
+	background: white;
+	color: dodgerblue;
+}
+
+nav {
+	background: white;
+	margin-top: 0px;
+}
+
+.mode {
+	align-self: right;
+}
+
+.newGame {
+	align-self: left;
+}
+
+/*#hardMode {
+	color: dodgerblue;
+}
+
+#easyMode {
+	color: dodgerblue;
+}
+
+#reset {
+	color: dodgerblue;
+}*/
+
+.navbar-default .navbar-nav > li > a {
+    color: dodgerblue;
+}
+
+.navbar-default .navbar-nav > li > a.hardselected {
+	background: dodgerblue;
+    color: white;
+    border-radius: 8px;
+}
+
+.navbar-default .navbar-nav > li > a.easyselected {
+	background: dodgerblue;
+    color: white;
+    border-radius: 8px;
+}
+
+#centerthis {
+	text-align: center;
+	color: white;
+}
+
+
